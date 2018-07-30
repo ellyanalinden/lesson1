@@ -1,11 +1,11 @@
 #tip 20%
-tip_percent = int(20)
+tip_percent = int(input("tip"));
 #tax 6.5%
-tax_percent = int(6.5)
+tax_percent = int(input("tax"));
 #meal cost
-meal_cost = float(30.0)
+meal_cost = float(input("cost"));
 #server name
-server = 'John'
+server = input('name?');
 
 tip = meal_cost * tip_percent / 100
 tax = meal_cost * tax_percent / 100
